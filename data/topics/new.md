@@ -4,6 +4,11 @@ keywords:
   - memory
   - leak
   - object
+resources:
+  - name: KWC's program
+    url: https://www.khanacademy.org/computer-programming/i/6727798339092480
+  - name: Bob Lyon's program
+    url: https://www.khanacademy.org/computer-programming/i/4684587452399616
 ---
 
 In the PJS environment, code is transformed such that any object created in a typical fashion (using the `new` keyword or literal syntax) is stored in an array in memory, allowing the memory usage of programs to balloon in size if objects are dereferenced willy-nilly. The garbage collector cannot reclaim the memory, and programs will slow down as the array grows.

@@ -8,6 +8,9 @@ keywords:
   - interactivity
   - keyCode
   - key
+resources:
+  - name: Keycode identifier
+    url: keycode.info
 ---
 
 The preferred method of detecting keypresses in the PJS environment is to make

@@ -4,6 +4,9 @@ keywords:
   - ES6
   - ES6+
   - ESNext
+resources:
+  - name: JavaScript (ECMAScript) versions
+    url: https://en.wikipedia.org/wiki/ECMAScript
 ---
 
 Khan Academy's PJS environment only supports [ES5](https://www.w3schools.com/js/js_es5.asp) (released in 2009 and updated in 2011) by default, meaning features like [JS classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes), [Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions), and [`async/await`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) are not supported. There have been many attempted workarounds, the [most comprehensive of which](https://www.khanacademy.org/computer-programming/-/4972461264257024) was made by Aliquis.
